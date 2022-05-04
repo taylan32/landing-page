@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+  #navbar {
+   background-color: red;
+   display: flex;
+   flex-direction: row; 
+  }
+
+  /* #home img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+  }
+
+  #training .items {
+      flex-direction: column;
+  }
+  #training .items .item {
+    width: 100%;
+  }
+
+  #courses .course{
+      display: flex;
+      flex-direction: column;
+  } */
+}

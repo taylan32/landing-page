@@ -1,0 +1,154 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 0 0.75rem;
+  margin: 0 auto;
+  align-items: center;
+  height: 70px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 0.5rem;
+}
+#navbar ul li a:hover {
+  background-color: #336ea2;
+  border-radius: 5px;
+  border: 1px solid antiquewhite;
+}
+
+/* HOME SECTION */
+#personel_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid gray;
+}
+#personel_info img {
+  max-width: 100%;
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+#personel_info p {
+  font-style: italic;
+  opacity: 0.6;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 1rem;
+  color: #fff;
+}
+#projects .items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+}
+
+#projects .items .item h4 {
+  font-size: 1.25rem;
+}
+#projects .items .item .project-codes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#projects .items .item .project-codes a {
+  color: #fff;
+  border: 1px solid white;
+  padding: 1rem;
+  margin: 0 2rem;
+  border-radius: 10px;
+}
+#projects .items .item .project-codes a:hover {
+  color: #336ea2;
+  background-color: white;
+  border: 1px solid #336ea2;
+}
+
+#projects .items .item ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+#projects .items .item ul li {
+  padding: 0.8rem;
+}
+#projects .items .item ul li:hover {
+  border-bottom: 1px solid whitesmoke;
+}
+
+/* CERTIFICATES */
+
+#certificates {
+  padding: 1rem;
+}
+#certificates .items {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#certificates .items .item {
+  background-color: #336ea2;
+  max-width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+/*  FOOTER CONTACT */
+#contact {
+  color: white;
+  padding: 2rem;
+}
+#contact .contact-form {
+  max-width: 7680x;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-form ul {
+  list-style: none;
+  margin-top: 1rem;
+  align-self: center;
+  display: flex;
+}
+
+#contact .contact-form ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+#contact .contact-form ul li a:hover {
+  opacity: 0.8;
+}
